@@ -9,8 +9,6 @@ export default {
       plugins: ['babel-plugin-transform-class-properties']
     })
   ],
-  external: [
-    '@uppy/core',
-    'babel-polyfill'
-  ]
+  sourcemap: true,
+  external: ['@uppy/core', 'babel-polyfill']
 };
